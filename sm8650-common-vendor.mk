@@ -2112,9 +2112,6 @@ PRODUCT_PACKAGES += \
     libTxPwrJni \
     libVoiceSdk \
     libWlanServiceJni \
-    lib_bt_aptx \
-    lib_bt_ble \
-    lib_bt_bundle \
     libaacvibrator \
     libadaptlaunch \
     libadm \
@@ -2128,14 +2125,10 @@ PRODUCT_PACKAGES += \
     libaodoptfeature \
     libapengine \
     libappclassifier \
-    libar-acdb \
-    libar-gpr \
-    libar-gsl \
     libar-pal \
     libarcsoft_triple_sat_vendor \
     libarcsoft_triple_zoomtranslator_vendor \
     libarmemlog \
-    libats \
     libaudio_log_utils \
     libaudiofeaturestats \
     libbacklight-calib \
@@ -2185,7 +2178,6 @@ PRODUCT_PACKAGES += \
     libcommonchiutils \
     libconfigdb \
     libcpion \
-    libcustomva_intf \
     libcv_common \
     libcwb_client_vendor \
     libcwb_qcom_aidl \
@@ -2244,7 +2236,6 @@ PRODUCT_PACKAGES += \
     libhdrvivid \
     libhistogram \
     libhme \
-    libhotword_intf \
     libhwconfigurationutil_vendor \
     libhwcsensor \
     libidl \
@@ -2296,8 +2287,6 @@ PRODUCT_PACKAGES += \
     liblowi_common \
     liblowi_wifihal \
     liblqe \
-    liblx-ar_util \
-    liblx-osal \
     libmapdata_api \
     libmasc \
     libmcs \
@@ -2698,9 +2687,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.esepowermanager@1.0 \
     vendor.qti.gnss-V6-ndk \
     vendor.qti.gnss-service \
-    vendor.qti.hardware.AGMIPC@1.0-impl \
-    vendor.qti.hardware.ListenSoundModel@1.0-impl \
-    vendor.qti.hardware.ListenSoundModel@1.0 \
     vendor.qti.hardware.alarm-V1-ndk \
     vendor.qti.hardware.bluetooth_sar@1.0 \
     vendor.qti.hardware.bluetooth_sar@1.1 \
