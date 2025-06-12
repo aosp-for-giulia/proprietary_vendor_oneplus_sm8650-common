@@ -1165,14 +1165,12 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8650-common/proprietary/odm/etc/init/vendor.oplus.hardware.displaypanelfeature-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.displaypanelfeature-service.rc \
     vendor/oneplus/sm8650-common/proprietary/odm/etc/init/vendor.oplus.hardware.stability.oplus_project-V1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.stability.oplus_project-V1-service.rc \
     vendor/oneplus/sm8650-common/proprietary/odm/etc/init/vendor.pixelworks.hardware.feature-service-lazy.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.pixelworks.hardware.feature-service-lazy.rc \
-    vendor/oneplus/sm8650-common/proprietary/odm/etc/init/virtualcameraprovider.rc:$(TARGET_COPY_OUT_ODM)/etc/init/virtualcameraprovider.rc \
     vendor/oneplus/sm8650-common/proprietary/odm/etc/izat.conf:$(TARGET_COPY_OUT_ODM)/etc/izat.conf \
     vendor/oneplus/sm8650-common/proprietary/odm/etc/media_codecs_dolby_vision.xml:$(TARGET_COPY_OUT_ODM)/etc/media_codecs_dolby_vision.xml \
     vendor/oneplus/sm8650-common/proprietary/odm/etc/media_profiles_V1_0.xml:$(TARGET_COPY_OUT_ODM)/etc/media_profiles_V1_0.xml \
     vendor/oneplus/sm8650-common/proprietary/odm/etc/oem_stx_platform_license.pfm:$(TARGET_COPY_OUT_ODM)/etc/oem_stx_platform_license.pfm \
     vendor/oneplus/sm8650-common/proprietary/odm/etc/sap.conf:$(TARGET_COPY_OUT_ODM)/etc/sap.conf \
     vendor/oneplus/sm8650-common/proprietary/odm/etc/uah/uahconfig.pb:$(TARGET_COPY_OUT_ODM)/etc/uah/uahconfig.pb \
-    vendor/oneplus/sm8650-common/proprietary/odm/etc/virtualcamera.json:$(TARGET_COPY_OUT_ODM)/etc/virtualcamera.json \
     vendor/oneplus/sm8650-common/proprietary/odm/lib64/camera/awb_parameter_default.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/awb_parameter_default.bin \
     vendor/oneplus/sm8650-common/proprietary/odm/lib64/camera/awb_parameter_qtech_imx581_wide.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/awb_parameter_qtech_imx581_wide.bin \
     vendor/oneplus/sm8650-common/proprietary/odm/lib64/camera/awb_parameter_qtech_imx615_front.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/awb_parameter_qtech_imx615_front.bin \
@@ -2911,8 +2909,6 @@ PRODUCT_PACKAGES += \
     libQnnHtpV75Stub.aiboost \
     libQnnSystem.aiboost \
     android.hardware.secure_element-V1-ndk_odm \
-    camera.device@3.2-impl_odm \
-    camera.device@3.3-impl_odm \
     com.qti.sensor.imx581 \
     com.qti.sensor.imx615 \
     com.qti.sensor.imx888 \
@@ -3183,13 +3179,6 @@ PRODUCT_PACKAGES += \
     vendor.oplus.hardware.sendextcamcmd-V2-ndk \
     vendor.oplus.hardware.stability.oplus_project-V2-ndk \
     vendor.oplus.hardware.urcc-V1-ndk \
-    vendor.oplus.hardware.virtual_device.camera.hal@3.3 \
-    vendor.oplus.hardware.virtual_device.camera.manager@1.0-impl \
-    vendor.oplus.hardware.virtual_device.camera.manager@1.0 \
-    vendor.oplus.hardware.virtual_device.camera.provider@2.4-impl \
-    vendor.oplus.hardware.virtual_device.camera.provider@2.5-impl \
-    vendor.oplus.hardware.virtual_device.camera.provider@2.6-impl \
-    vendor.oplus.hardware.virtual_device.camera.provider@2.7-impl \
     vendor.pixelworks.hardware.display-V2-ndk \
     vendor.pixelworks.hardware.display-impl-i7 \
     vendor.pixelworks.hardware.display-impl-i7p \
@@ -3465,7 +3454,6 @@ PRODUCT_PACKAGES += \
     vendor.oplus.hardware.displaypanelfeature-service \
     vendor.oplus.hardware.stability.oplus_project-V1-service \
     vendor.pixelworks.hardware.feature-service \
-    virtualcameraprovider \
     wlschgd \
     irisConfig \
     oplus_sensor_fb \
