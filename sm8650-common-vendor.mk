@@ -2110,7 +2110,6 @@ PRODUCT_PACKAGES += \
     libTxPwrJni \
     libVoiceSdk \
     libWlanServiceJni \
-    libaacvibrator \
     libadaptlaunch \
     libadm \
     libadreno_app_profiles \
