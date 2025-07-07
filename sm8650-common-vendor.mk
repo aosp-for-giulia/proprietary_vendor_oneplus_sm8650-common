@@ -1489,9 +1489,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8650-common/proprietary/vendor/etc/media_codecs_performance_cliffs_v0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance_cliffs_v0.xml \
     vendor/oneplus/sm8650-common/proprietary/vendor/etc/media_codecs_performance_cliffs_v1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance_cliffs_v1.xml \
     vendor/oneplus/sm8650-common/proprietary/vendor/etc/media_codecs_performance_pineapple.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance_pineapple.xml \
-    vendor/oneplus/sm8650-common/proprietary/vendor/etc/media_codecs_performance_pineapple_vendor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance_pineapple_vendor.xml \
     vendor/oneplus/sm8650-common/proprietary/vendor/etc/media_codecs_pineapple.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_pineapple.xml \
-    vendor/oneplus/sm8650-common/proprietary/vendor/etc/media_codecs_pineapple_vendor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_pineapple_vendor.xml \
     vendor/oneplus/sm8650-common/proprietary/vendor/etc/media_pineapple/video_system_specs.json:$(TARGET_COPY_OUT_VENDOR)/etc/media_pineapple/video_system_specs.json \
     vendor/oneplus/sm8650-common/proprietary/vendor/etc/media_profiles_V1_0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_V1_0.xml \
     vendor/oneplus/sm8650-common/proprietary/vendor/etc/media_profiles_cliffs_v0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_cliffs_v0.xml \
