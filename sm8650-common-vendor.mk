@@ -6,6 +6,7 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/oneplus/sm8650-common
 
 PRODUCT_COPY_FILES += \
+    vendor/oneplus/sm8650-common/proprietary/odm/etc/Custom_LUT_hlg.cube:$(TARGET_COPY_OUT_ODM)/etc/Custom_LUT_hlg.cube \
     vendor/oneplus/sm8650-common/proprietary/odm/etc/apdr.conf:$(TARGET_COPY_OUT_ODM)/etc/apdr.conf \
     vendor/oneplus/sm8650-common/proprietary/odm/etc/camera/AiFace.json:$(TARGET_COPY_OUT_ODM)/etc/camera/AiFace.json \
     vendor/oneplus/sm8650-common/proprietary/odm/etc/camera/CameraOemConfiguration.config:$(TARGET_COPY_OUT_ODM)/etc/camera/CameraOemConfiguration.config \
@@ -1154,6 +1155,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8650-common/proprietary/odm/etc/displaycolorfeaturecfg.xml:$(TARGET_COPY_OUT_ODM)/etc/displaycolorfeaturecfg.xml \
     vendor/oneplus/sm8650-common/proprietary/odm/etc/dolby/display/dolby_vision.cfg:$(TARGET_COPY_OUT_ODM)/etc/dolby/display/dolby_vision.cfg \
     vendor/oneplus/sm8650-common/proprietary/odm/etc/dolby/dolby_vision.cfg:$(TARGET_COPY_OUT_ODM)/etc/dolby/dolby_vision.cfg \
+    vendor/oneplus/sm8650-common/proprietary/odm/etc/hdr3dlut_pq_qcom_grid_out_rgb.cube:$(TARGET_COPY_OUT_ODM)/etc/hdr3dlut_pq_qcom_grid_out_rgb.cube \
     vendor/oneplus/sm8650-common/proprietary/odm/etc/init/android.hardware.contexthub-service.qmi.rc:$(TARGET_COPY_OUT_ODM)/etc/init/android.hardware.contexthub-service.qmi.rc \
     vendor/oneplus/sm8650-common/proprietary/odm/etc/init/android.hardware.secure_element-service.qti.rc:$(TARGET_COPY_OUT_ODM)/etc/init/android.hardware.secure_element-service.qti.rc \
     vendor/oneplus/sm8650-common/proprietary/odm/etc/init/commcenterd.rc:$(TARGET_COPY_OUT_ODM)/etc/init/commcenterd.rc \
@@ -2942,6 +2944,7 @@ PRODUCT_PACKAGES += \
     libCaptureBokeh \
     libDeVIS \
     libEIS \
+    libEISLive \
     libFDClite \
     libFaceBeautyCap \
     libFaceBeautyJni \
