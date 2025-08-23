@@ -3413,6 +3413,7 @@ PRODUCT_PACKAGES += \
     qtigetprop \
     qtisetprop \
     qvrdatalogger \
+    qvrdatauploader \
     qvrservicetest \
     qwesd \
     rmt_storage \

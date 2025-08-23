@@ -37713,11 +37713,6 @@ cc_prebuilt_library_shared {
                 "proprietary/odm/lib64/libdolbydecoderprocessor.so",
             ],
             shared_libs: [
-                "libbase",
-                "libcodec2",
-                "libcodec2_vndk",
-                "android.hardware.media.c2@1.0",
-                "libcodec2_hidl@1.0",
                 "liblog",
                 "libEGL",
                 "libGLESv2",
@@ -37729,6 +37724,8 @@ cc_prebuilt_library_shared {
                 "libhidlbase",
                 "libnativewindow",
                 "libdolbyeglcore",
+                "libcodec2_vndk",
+                "libcodec2",
                 "libc++",
                 "libc",
                 "libm",
@@ -44736,6 +44733,35 @@ cc_prebuilt_binary {
                 "libutils",
                 "libcutils",
                 "libui",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    strip: {
+        none: true,
+    },
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_binary {
+    name: "qvrdatauploader",
+    owner: "oneplus",
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/bin/qvrdatauploader",
+            ],
+            shared_libs: [
+                "libtinyxml2",
+                "liblog",
+                "libqvrservice_client.qti",
+                "libutils",
+                "libcutils",
                 "libc++",
                 "libc",
                 "libm",
