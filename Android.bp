@@ -24532,7 +24532,7 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "liblog",
-                "android.hardware.secure_element-V1-ndk_odm",
+                "android.hardware.secure_element-V1-ndk",
                 "libbinder_ndk",
                 "libbase",
                 "libbinder",
@@ -33088,31 +33088,6 @@ cc_prebuilt_library_shared {
     },
     compile_multilib: "64",
     relative_install_path: "aiboost",
-    prefer: true,
-    device_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.secure_element-V1-ndk_odm",
-    owner: "oneplus",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/odm/lib64/android.hardware.secure_element-V1-ndk_odm.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
     prefer: true,
     device_specific: true,
 }
@@ -45935,7 +45910,7 @@ cc_prebuilt_binary {
                 "liblog",
                 "libutils",
                 "libbinder_ndk",
-                "android.hardware.secure_element-V1-ndk_odm",
+                "android.hardware.secure_element-V1-ndk",
                 "libc++",
                 "libc",
                 "libm",

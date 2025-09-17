@@ -2927,7 +2927,6 @@ PRODUCT_PACKAGES += \
     libQnnHtpPrepare.aiboost \
     libQnnHtpV75Stub.aiboost \
     libQnnSystem.aiboost \
-    android.hardware.secure_element-V1-ndk_odm \
     com.qti.sensor.imx581 \
     com.qti.sensor.imx615 \
     com.qti.sensor.imx888 \
