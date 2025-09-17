@@ -3297,6 +3297,7 @@ PRODUCT_PACKAGES += \
     mwqem-saidl.xml \
     qesdk-manager.xml \
     qms-saidl.xml \
+    secure_element-service-omapi.xml \
     vendor.qti.camera.aon-impl.xml \
     vendor.qti.camera.offlinecamera-impl.xml \
     vendor.qti.camera.postproc-impl.xml \
