@@ -3384,6 +3384,10 @@ PRODUCT_PACKAGES += \
     ims-dataservice-daemon \
     ims_rtp_daemon \
     imsdaemon \
+    init.kernel.post_boot-cliffs \
+    init.kernel.post_boot-cliffs_2_2_1 \
+    init.kernel.post_boot-cliffs_2_3_0 \
+    init.kernel.post_boot-cliffs_3_3_1 \
     init.kernel.post_boot-memory \
     init.kernel.post_boot-pineapple_2_3_1_1 \
     init.kernel.post_boot-pineapple_2_3_2_0 \
