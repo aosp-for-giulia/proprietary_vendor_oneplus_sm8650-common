@@ -795,7 +795,6 @@ PRODUCT_PACKAGES += \
     vendor.libdpmtcm \
     vendor.libmwqemiptablemgr \
     vendor.oplus.hardware.olc2-V2-ndk_vendor \
-    vendor.oplus.hardware.stability.oplus_project-V1-ndk \
     vendor.qti.data.factoryservice-V1-ndk \
     vendor.qti.data.mwqem@1.0 \
     vendor.qti.data.mwqemaidlservice-V1-ndk \
@@ -978,7 +977,6 @@ PRODUCT_PACKAGES += \
     libuahcore \
     vendor.oplus.hardware.olc2-V1-ndk \
     vendor.oplus.hardware.olc2-V2-ndk \
-    vendor.oplus.hardware.stability.oplus_project-V2-ndk \
     libQnnHtpV75Skel.aiboost \
     libaiboostubwc_skel.aiboost \
     libQnnHtpV75Skel.unsigned.aiboost \
