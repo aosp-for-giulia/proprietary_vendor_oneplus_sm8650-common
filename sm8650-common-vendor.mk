@@ -794,7 +794,6 @@ PRODUCT_PACKAGES += \
     vendor.libdpmframework \
     vendor.libdpmtcm \
     vendor.libmwqemiptablemgr \
-    vendor.oplus.hardware.olc2-V2-ndk_vendor \
     vendor.qti.data.factoryservice-V1-ndk \
     vendor.qti.data.mwqem@1.0 \
     vendor.qti.data.mwqemaidlservice-V1-ndk \
@@ -975,8 +974,6 @@ PRODUCT_PACKAGES += \
     libqcodec2_dolbydecoderfilter \
     libqcodec2_dolbyencoderfilter \
     libuahcore \
-    vendor.oplus.hardware.olc2-V1-ndk \
-    vendor.oplus.hardware.olc2-V2-ndk \
     libQnnHtpV75Skel.aiboost \
     libaiboostubwc_skel.aiboost \
     libQnnHtpV75Skel.unsigned.aiboost \
