@@ -13,8 +13,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8650-common/proprietary/odm/etc/init/init.oppo.reserve.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.oppo.reserve.rc \
     vendor/oneplus/sm8650-common/proprietary/odm/etc/init/init.touchDaemon.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.touchDaemon.rc \
     vendor/oneplus/sm8650-common/proprietary/odm/etc/init/vendor-oplus-hardware-touch-V2-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor-oplus-hardware-touch-V2-service.rc \
-    vendor/oneplus/sm8650-common/proprietary/odm/etc/init/vendor.oplus.hardware.charger-V6-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.charger-V6-service.rc \
-    vendor/oneplus/sm8650-common/proprietary/odm/etc/init/vendor.oplus.hardware.stability.oplus_project-V1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.stability.oplus_project-V1-service.rc \
+    vendor/oneplus/sm8650-common/proprietary/odm/etc/init/vendor.oplus.hardware.charger-V9-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.charger-V9-service.rc \
     vendor/oneplus/sm8650-common/proprietary/odm/etc/media_profiles_V1_0.xml:$(TARGET_COPY_OUT_ODM)/etc/media_profiles_V1_0.xml \
     vendor/oneplus/sm8650-common/proprietary/odm/vendor/firmware/antdtx.b00:$(TARGET_COPY_OUT_ODM)/vendor/firmware/antdtx.b00 \
     vendor/oneplus/sm8650-common/proprietary/odm/vendor/firmware/antdtx.b01:$(TARGET_COPY_OUT_ODM)/vendor/firmware/antdtx.b01 \
@@ -33,11 +32,13 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8650-common/proprietary/system_ext/etc/horae/horae_SM8650.conf:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/horae/horae_SM8650.conf \
     vendor/oneplus/sm8650-common/proprietary/system_ext/etc/horae/horae_SM8650_CAIHONG.conf:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/horae/horae_SM8650_CAIHONG.conf \
     vendor/oneplus/sm8650-common/proprietary/system_ext/etc/init/horae.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/horae.rc \
+    vendor/oneplus/sm8650-common/proprietary/system_ext/etc/init/qspa_system.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/qspa_system.rc \
     vendor/oneplus/sm8650-common/proprietary/system_ext/etc/init/vendor.qti.hardware.qccsyshal@1.2-service.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/vendor.qti.hardware.qccsyshal@1.2-service.rc \
     vendor/oneplus/sm8650-common/proprietary/system_ext/etc/init/vendor.qti.qccsyshal_aidl-service.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/vendor.qti.qccsyshal_aidl-service.rc \
     vendor/oneplus/sm8650-common/proprietary/system_ext/etc/init/wfdservice.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/wfdservice.rc \
     vendor/oneplus/sm8650-common/proprietary/system_ext/etc/permissions/com.qti.qcc.vendor_qcc.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.qti.qcc.vendor_qcc.xml \
     vendor/oneplus/sm8650-common/proprietary/system_ext/etc/permissions/wfd-system-ext-privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/wfd-system-ext-privapp-permissions-qti.xml \
+    vendor/oneplus/sm8650-common/proprietary/system_ext/etc/qspa/qspa_default.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/qspa/qspa_default.rc \
     vendor/oneplus/sm8650-common/proprietary/system_ext/etc/seccomp_policy/wfdservice64.policy:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/seccomp_policy/wfdservice64.policy \
     vendor/oneplus/sm8650-common/proprietary/system_ext/etc/wfdconfigsink.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/wfdconfigsink.xml \
     vendor/oneplus/sm8650-common/proprietary/vendor/etc/ASR_binary/Whisper/libSnpeHtpV75Skel.so:$(TARGET_COPY_OUT_VENDOR)/etc/ASR_binary/Whisper/libSnpeHtpV75Skel.so \
@@ -774,6 +775,7 @@ PRODUCT_PACKAGES += \
     nearby.napp_header \
     nearby \
     libdiag_system \
+    libdiagatbparser_system \
     libmmosal \
     libmmparser_lite \
     libmmrtpdecoder \
@@ -815,6 +817,15 @@ PRODUCT_PACKAGES += \
     libQnnHtpPrepare.aiboost \
     libQnnHtpV75Stub.aiboost \
     libQnnSystem.aiboost \
+    libQnnHtpV75Skel.signed.aiframe \
+    libQnnHtpV75Skel.unsigned.aiframe \
+    libQnnHtp.aiframe \
+    libQnnHtpPrepare.aiframe \
+    libQnnHtpV75Stub.aiframe \
+    libQnnSystem.aiframe \
+    libaiboost_qnn_external_delegate \
+    libqcom_llm \
+    libtransformer_lite \
     libGaiaClient_vnd \
     libQnnCpu \
     libQnnGpu \
@@ -825,7 +836,7 @@ PRODUCT_PACKAGES += \
     libQnnSaver \
     libQnnSystem \
     libaiboost \
-    libaiboost_qnn_external_delegate \
+    libaiboost_llm \
     libaiboost_qnn_external_delegate_te \
     libaiboost_qnn_sr \
     libaiboost_sr \
@@ -844,7 +855,6 @@ PRODUCT_PACKAGES += \
     libqcodec2_dolbyencoderfilter \
     libQnnHtpV75Skel.aiboost \
     libaiboostubwc_skel.aiboost \
-    libQnnHtpV75Skel.unsigned.aiboost \
     capi_v3_oprec \
     libCalculator_skel \
     libQnnHtpV75 \
@@ -895,7 +905,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.qspmhal-service.xml \
     vendor.qti.qccsyshal_aidl-service.xml \
     manifest_oplus_charger_aidl.xml \
-    manifest_oplus_stability_project_aidl.xml \
     manifest_touch_aidl.xml \
     adsprpcd \
     audioadsprpcd \
@@ -986,9 +995,9 @@ PRODUCT_PACKAGES += \
     qccsyshal@1.2-service \
     qccsyshal_aidl-service \
     wfdservice64 \
+    gauged \
     vendor-oplus-hardware-touch-V2-service \
-    vendor.oplus.hardware.charger-V6-service \
-    vendor.oplus.hardware.stability.oplus_project-V1-service \
+    vendor.oplus.hardware.charger-V9-service \
     wlschgd \
     init.oplus.wifi \
     oldc_vnd \
@@ -1035,7 +1044,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8650-common/proprietary/system_ext/etc/permissions/qti_permissions.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/qti_permissions.xml \
     vendor/oneplus/sm8650-common/proprietary/system_ext/etc/permissions/rsmcService.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/rsmcService.xml \
     vendor/oneplus/sm8650-common/proprietary/system_ext/etc/permissions/telephony_system-ext_privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/telephony_system-ext_privapp-permissions-qti.xml \
-    vendor/oneplus/sm8650-common/proprietary/system_ext/etc/permissions/vendor.qti.ims.rcsservice.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/vendor.qti.ims.rcsservice.xml \
     vendor/oneplus/sm8650-common/proprietary/system_ext/etc/permissions/vendor.qti.imsdcservice.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/vendor.qti.imsdcservice.xml \
     vendor/oneplus/sm8650-common/proprietary/system_ext/etc/seccomp_policy/tcmd.policy:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/seccomp_policy/tcmd.policy \
     vendor/oneplus/sm8650-common/proprietary/system_ext/etc/sysconfig/qti_telephony_system_packages_config.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/qti_telephony_system_packages_config.xml \
@@ -1426,10 +1434,12 @@ PRODUCT_PACKAGES += \
     libimscamera_jni \
     libimsmedia_jni \
     vendor.qti.ImsRtpService-V1-ndk \
+    vendor.qti.ImsRtpService-V2-ndk \
     vendor.qti.hardware.dpmaidlservice-V1-ndk \
     vendor.qti.hardware.dpmservice@1.0 \
     vendor.qti.ims.datachannelservice-V1-ndk \
     vendor.qti.ims.datachannelservice-V2-ndk \
+    vendor.qti.ims.datachannelservice-V3-ndk \
     vendor.qti.imsrtpservice@3.0 \
     vendor.qti.imsrtpservice@3.1 \
     lib-virtual-modem-protos \
@@ -1449,13 +1459,15 @@ PRODUCT_PACKAGES += \
     librfapis \
     librpmbengclient \
     libsecurity_event_dcs_vnd \
+    libsecurity_event_olc_vnd \
     libsubsys-service \
     libsubsys-utils \
+    libvasapi \
     vendor.oplus.hardware.appradio@1.0 \
     vendor.oplus.hardware.communicationcenter-V1-ndk \
     vendor.oplus.hardware.communicationcenter-V2-ndk \
-    vendor.oplus.hardware.subsys-V3-ndk \
-    vendor.oplus.hardware.subsys_radio-V4-ndk \
+    vendor.oplus.hardware.subsys-V5-ndk \
+    vendor.oplus.hardware.subsys_radio-V8-ndk \
     vendor.qti.hardware.soter@1.0 \
     CACertService \
     CneApp \
@@ -1464,7 +1476,6 @@ PRODUCT_PACKAGES += \
     uimremoteclient \
     uimremoteserver \
     ImsDataChannelService \
-    ImsRcsService \
     QtiTelephonyService \
     SoterService \
     dpmserviceapp \
@@ -1484,6 +1495,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.ims.connectionaidlservice-V1-java \
     vendor.qti.ims.datachannelservice-V1-java \
     vendor.qti.ims.datachannelservice-V2-java \
+    vendor.qti.ims.datachannelservice-V3-java \
     vendor.qti.ims.factory-V2.0-java \
     vendor.qti.ims.factory-V2.1-java \
     vendor.qti.ims.factory-V2.2-java \
