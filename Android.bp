@@ -27030,15 +27030,6 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-    name: "secure_element-service-omapi.xml",
-    owner: "oneplus",
-    src: "proprietary/vendor/etc/vintf/manifest/secure_element-service-omapi.xml",
-    filename_from_src: true,
-    sub_dir: "vintf/manifest",
-    soc_specific: true,
-}
-
-prebuilt_etc_xml {
     name: "vendor.qti.gnss-service.xml",
     owner: "oneplus",
     src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.gnss-service.xml",
@@ -27102,6 +27093,15 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
+    name: "device_manifest_subsys.xml",
+    owner: "oneplus",
+    src: "proprietary/odm/etc/vintf/manifest/device_manifest_subsys.xml",
+    filename_from_src: true,
+    sub_dir: "vintf/manifest",
+    device_specific: true,
+}
+
+prebuilt_etc_xml {
     name: "manifest_oplus_esim.xml",
     owner: "oneplus",
     src: "proprietary/odm/etc/vintf/manifest/manifest_oplus_esim.xml",
@@ -27123,6 +27123,15 @@ prebuilt_etc_xml {
     name: "manifest_oplus_ifaa.xml",
     owner: "oneplus",
     src: "proprietary/odm/etc/vintf/manifest/manifest_oplus_ifaa.xml",
+    filename_from_src: true,
+    sub_dir: "vintf/manifest",
+    device_specific: true,
+}
+
+prebuilt_etc_xml {
+    name: "secure_element_omapi_service.xml",
+    owner: "oneplus",
+    src: "proprietary/odm/etc/vintf/manifest/secure_element_omapi_service.xml",
     filename_from_src: true,
     sub_dir: "vintf/manifest",
     device_specific: true,
