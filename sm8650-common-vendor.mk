@@ -15,16 +15,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8650-common/proprietary/odm/etc/init/vendor-oplus-hardware-touch-V2-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor-oplus-hardware-touch-V2-service.rc \
     vendor/oneplus/sm8650-common/proprietary/odm/etc/init/vendor.oplus.hardware.charger-V9-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.charger-V9-service.rc \
     vendor/oneplus/sm8650-common/proprietary/odm/etc/media_profiles_V1_0.xml:$(TARGET_COPY_OUT_ODM)/etc/media_profiles_V1_0.xml \
-    vendor/oneplus/sm8650-common/proprietary/odm/vendor/firmware/antdtx.b00:$(TARGET_COPY_OUT_ODM)/vendor/firmware/antdtx.b00 \
-    vendor/oneplus/sm8650-common/proprietary/odm/vendor/firmware/antdtx.b01:$(TARGET_COPY_OUT_ODM)/vendor/firmware/antdtx.b01 \
-    vendor/oneplus/sm8650-common/proprietary/odm/vendor/firmware/antdtx.b02:$(TARGET_COPY_OUT_ODM)/vendor/firmware/antdtx.b02 \
-    vendor/oneplus/sm8650-common/proprietary/odm/vendor/firmware/antdtx.b03:$(TARGET_COPY_OUT_ODM)/vendor/firmware/antdtx.b03 \
-    vendor/oneplus/sm8650-common/proprietary/odm/vendor/firmware/antdtx.b04:$(TARGET_COPY_OUT_ODM)/vendor/firmware/antdtx.b04 \
-    vendor/oneplus/sm8650-common/proprietary/odm/vendor/firmware/antdtx.b05:$(TARGET_COPY_OUT_ODM)/vendor/firmware/antdtx.b05 \
-    vendor/oneplus/sm8650-common/proprietary/odm/vendor/firmware/antdtx.b06:$(TARGET_COPY_OUT_ODM)/vendor/firmware/antdtx.b06 \
-    vendor/oneplus/sm8650-common/proprietary/odm/vendor/firmware/antdtx.b07:$(TARGET_COPY_OUT_ODM)/vendor/firmware/antdtx.b07 \
-    vendor/oneplus/sm8650-common/proprietary/odm/vendor/firmware/antdtx.b08:$(TARGET_COPY_OUT_ODM)/vendor/firmware/antdtx.b08 \
-    vendor/oneplus/sm8650-common/proprietary/odm/vendor/firmware/antdtx.mdt:$(TARGET_COPY_OUT_ODM)/vendor/firmware/antdtx.mdt \
     vendor/oneplus/sm8650-common/proprietary/product/etc/sysconfig/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/com.android.hotwordenrollment.common.util.xml \
     vendor/oneplus/sm8650-common/proprietary/system/etc/sysconfig/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml \
     vendor/oneplus/sm8650-common/proprietary/system_ext/etc/horae/horae.conf:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/horae/horae.conf \
@@ -814,65 +804,17 @@ PRODUCT_PACKAGES += \
     vendor.qti.qccsyshal_aidl-V1-ndk \
     vendor.qti.qccsyshal_aidl-halimpl \
     vendor.qti.qccvndhal_aidl-V1-ndk \
-    libQnnHtp.aiboost \
-    libQnnHtpPrepare.aiboost \
-    libQnnHtpV75Stub.aiboost \
-    libQnnSystem.aiboost \
-    libQnnHtpV75Skel.signed.aiframe \
-    libQnnHtpV75Skel.unsigned.aiframe \
-    libQnnHtp.aiframe \
-    libQnnHtpPrepare.aiframe \
-    libQnnHtpV75Stub.aiframe \
-    libQnnSystem.aiframe \
-    libaiboost_qnn_external_delegate \
-    libqcom_llm \
-    libtransformer_lite \
     libGaiaClient_vnd \
-    libQnnCpu \
-    libQnnGpu \
-    libQnnHtp \
-    libQnnHtpPrepare \
-    libQnnHtpV75CalculatorStub \
-    libQnnHtpV75Stub \
-    libQnnSaver \
-    libQnnSystem \
-    libaiboost \
-    libaiboost_llm \
-    libaiboost_qnn_external_delegate_te \
-    libaiboost_qnn_sr \
-    libaiboost_sr \
-    libaiboost_te \
-    libaiboost_ubwc \
     libdolbydecoderprocessor \
     libdolbyeglcore \
     libdolbyencoderprocessor \
     libdolbyottcameracontrol \
-    libhta_hexagon_runtime_snpe \
     libolc_vnd \
     liboplus_service \
     libosenseaidlhalclient \
     libosensenativeproxy_client \
     libqcodec2_dolbydecoderfilter \
     libqcodec2_dolbyencoderfilter \
-    libQnnHtpV75Skel.aiboost \
-    libaiboostubwc_skel.aiboost \
-    capi_v3_oprec \
-    libCalculator_skel \
-    libQnnHtpV75 \
-    libQnnHtpV75Skel \
-    libQnnSaver \
-    libSnpeHtpV75Skel \
-    libSuperRawPost_skel \
-    libaisr_skel \
-    libarc_htp_driver_skel \
-    libcalculator_skel \
-    libhvxFaceBeautyPre_skel \
-    libktveffect \
-    libtfadsp_sb4_0_rx \
-    libtfadsp_sb4_0_tx \
-    libvdblurless_5.0.2_skel \
-    libvdsuperphoto_skel \
-    nlc_bgth_v1_5 \
     com.google.android.widevine.nonupdatable \
     TimeService \
     HotwordEnrollmentXGoogleHEXAGON_WIDEBAND \
