@@ -1192,8 +1192,6 @@ PRODUCT_PACKAGES += \
     libnicm_utils \
     libnicm_vh \
     libpal_net_if \
-    libprotobuf-cpp-full-21.7 \
-    libprotobuf-cpp-lite-21.7 \
     libqcmaputils \
     libqcrilDataModule \
     libqcrilNr \
