@@ -11391,7 +11391,7 @@ cc_prebuilt_library_shared {
 }
 
 prebuilt_rfsa {
-    name: "chre_qsh_shim",
+    name: "vendor_lib_rfsa_adsp_chre_qsh_shim_so",
     filename: "chre_qsh_shim.so",
     owner: "oneplus",
     src: "proprietary/vendor/lib/rfsa/adsp/chre_qsh_shim.so",
@@ -11400,7 +11400,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libDspIOProxy_skel",
+    name: "vendor_lib_rfsa_adsp_libDspIOProxy_skel_so",
     filename: "libDspIOProxy_skel.so",
     owner: "oneplus",
     src: "proprietary/vendor/lib/rfsa/adsp/libDspIOProxy_skel.so",
@@ -11409,7 +11409,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libadsp_jpege_skel",
+    name: "vendor_lib_rfsa_adsp_libadsp_jpege_skel_so",
     filename: "libadsp_jpege_skel.so",
     owner: "oneplus",
     src: "proprietary/vendor/lib/rfsa/adsp/libadsp_jpege_skel.so",
@@ -11418,7 +11418,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libbitml_nsp_skel",
+    name: "vendor_lib_rfsa_adsp_libbitml_nsp_skel_so",
     filename: "libbitml_nsp_skel.so",
     owner: "oneplus",
     src: "proprietary/vendor/lib/rfsa/adsp/libbitml_nsp_skel.so",
@@ -11427,7 +11427,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libdsp_streamer_binning",
+    name: "vendor_lib_rfsa_adsp_libdsp_streamer_binning_so",
     filename: "libdsp_streamer_binning.so",
     owner: "oneplus",
     src: "proprietary/vendor/lib/rfsa/adsp/libdsp_streamer_binning.so",
@@ -11436,7 +11436,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libdsp_streamer_qvrcam_receiver",
+    name: "vendor_lib_rfsa_adsp_libdsp_streamer_qvrcam_receiver_so",
     filename: "libdsp_streamer_qvrcam_receiver.so",
     owner: "oneplus",
     src: "proprietary/vendor/lib/rfsa/adsp/libdsp_streamer_qvrcam_receiver.so",
@@ -11445,7 +11445,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libeye_tracking_dsp_sample_skel",
+    name: "vendor_lib_rfsa_adsp_libeye_tracking_dsp_sample_skel_so",
     filename: "libeye_tracking_dsp_sample_skel.so",
     owner: "oneplus",
     src: "proprietary/vendor/lib/rfsa/adsp/libeye_tracking_dsp_sample_skel.so",
@@ -11454,7 +11454,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libhalide_hexagon_remote_skel",
+    name: "vendor_lib_rfsa_adsp_libhalide_hexagon_remote_skel_so",
     filename: "libhalide_hexagon_remote_skel.so",
     owner: "oneplus",
     src: "proprietary/vendor/lib/rfsa/adsp/libhalide_hexagon_remote_skel.so",
@@ -11463,7 +11463,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libmctfengine_skel",
+    name: "vendor_lib_rfsa_adsp_libmctfengine_skel_so",
     filename: "libmctfengine_skel.so",
     owner: "oneplus",
     src: "proprietary/vendor/lib/rfsa/adsp/libmctfengine_skel.so",
@@ -11472,7 +11472,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libmlawbpostproc_dsp_skel",
+    name: "vendor_lib_rfsa_adsp_libmlawbpostproc_dsp_skel_so",
     filename: "libmlawbpostproc_dsp_skel.so",
     owner: "oneplus",
     src: "proprietary/vendor/lib/rfsa/adsp/libmlawbpostproc_dsp_skel.so",
@@ -11481,7 +11481,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libqvr_3dof_tracker_skel",
+    name: "vendor_lib_rfsa_adsp_libqvr_3dof_tracker_skel_so",
     filename: "libqvr_3dof_tracker_skel.so",
     owner: "oneplus",
     src: "proprietary/vendor/lib/rfsa/adsp/libqvr_3dof_tracker_skel.so",
@@ -11490,7 +11490,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libqvr_cam_dsp_driver_skel",
+    name: "vendor_lib_rfsa_adsp_libqvr_cam_dsp_driver_skel_so",
     filename: "libqvr_cam_dsp_driver_skel.so",
     owner: "oneplus",
     src: "proprietary/vendor/lib/rfsa/adsp/libqvr_cam_dsp_driver_skel.so",
@@ -11499,7 +11499,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libqvr_dsp_driver_skel",
+    name: "vendor_lib_rfsa_adsp_libqvr_dsp_driver_skel_so",
     filename: "libqvr_dsp_driver_skel.so",
     owner: "oneplus",
     src: "proprietary/vendor/lib/rfsa/adsp/libqvr_dsp_driver_skel.so",
@@ -11508,7 +11508,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libtracker_6dof_skel_8450",
+    name: "vendor_lib_rfsa_adsp_libtracker_6dof_skel_8450_so",
     filename: "libtracker_6dof_skel_8450.so",
     owner: "oneplus",
     src: "proprietary/vendor/lib/rfsa/adsp/libtracker_6dof_skel_8450.so",
@@ -11517,7 +11517,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "nearby.napp_header",
+    name: "vendor_lib_rfsa_adsp_nearby_napp_header",
     filename: "nearby.napp_header",
     owner: "oneplus",
     src: "proprietary/vendor/lib/rfsa/adsp/nearby.napp_header",
@@ -11526,7 +11526,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "nearby",
+    name: "vendor_lib_rfsa_adsp_nearby_so",
     filename: "nearby.so",
     owner: "oneplus",
     src: "proprietary/vendor/lib/rfsa/adsp/nearby.so",
