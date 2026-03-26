@@ -239,6 +239,10 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         <AppLayer  name="SurfaceView[com.ss.android.ugc.trill/com.ss.android.ugc.aweme.adaptation.saa.SAAActivity](BLAST)" type="camera" strategy="mode" mode="2" enable="true"/>
       </LayerApp>
 
+      <LayerApp name="TikTok3">
+        <AppLayer  name="SurfaceView[com.zhiliaoapp.musically/com.ss.android.ugc.aweme.adaptation.saa.SAAActivity](BLAST)" type="camera" strategy="mode" mode="2" enable="true"/>
+      </LayerApp>
+
       <LayerApp name="xhey">
         <AppLayer  name="SurfaceView[com.xhey.xcamera/com.xhey.xcamera.ui.camera.picNew.PreviewActivity](BLAST)" type="camera" strategy="mode" mode="2" enable="true"/>
       </LayerApp>
@@ -431,6 +435,10 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         <AppLayer  name="SurfaceView[com.whatsapp/com.whatsapp.voipcalling.VoipActivityV2](BLAST)" type="camera" strategy="mode" mode="2" enable="true"/>
       </LayerApp>
 
+      <LayerApp name="whatsapp1">
+        <AppLayer  name="com.whatsapp.w4b/com.whatsapp.camera.ui.CameraActivity" type="camera" strategy="mode" mode="2" enable="true"/>
+      </LayerApp>
+
       <LayerApp name="roposo">
         <AppLayer  name="SurfaceView[com.roposo.android/com.roposo.creation.activities.CreationActivity](BLAST)" type="camera" strategy="mode" mode="2" enable="true"/>
       </LayerApp>
@@ -457,6 +465,10 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
       <LayerApp name="facebook">
         <AppLayer  name="SurfaceView[com.facebook.katana/com.facebook.inspiration.composer.activity.InspirationComposerActivity](BLAST)" type="camera" strategy="mode" mode="2" enable="true"/>
+      </LayerApp>
+
+      <LayerApp name="facebook1">
+        <AppLayer  name="SurfaceView[com.facebook.katana/com.facebook.inspiration.activity.InspirationCameraActivity](BLAST)" type="camera" strategy="mode" mode="2" enable="true"/>
       </LayerApp>
 
       <LayerApp name="neteaseshortvideo">

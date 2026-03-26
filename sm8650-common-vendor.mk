@@ -1413,7 +1413,7 @@ PRODUCT_PACKAGES += \
     vendor.oplus.hardware.communicationcenter-V1-ndk \
     vendor.oplus.hardware.communicationcenter-V2-ndk \
     vendor.oplus.hardware.subsys-V5-ndk \
-    vendor.oplus.hardware.subsys_radio-V8-ndk \
+    vendor.oplus.hardware.subsys_radio-V9-ndk \
     vendor.qti.hardware.soter@1.0 \
     CACertService \
     CneApp \
