@@ -1266,9 +1266,6 @@ PRODUCT_PACKAGES += \
     vendor.libdpmframework \
     vendor.libdpmtcm \
     vendor.libmwqemiptablemgr \
-    vendor.oplus.hardware.appradioaidl-V1-ndk \
-    vendor.oplus.hardware.communicationcenter-V2-ndk_vendor \
-    vendor.oplus.hardware.ims-V1-ndk \
     vendor.qti.ImsRtpService-V1-ndk_vendor \
     vendor.qti.ImsRtpService-aidl-Impl \
     vendor.qti.data.factoryservice-V1-ndk \
@@ -1412,11 +1409,6 @@ PRODUCT_PACKAGES += \
     libsubsys-service \
     libsubsys-utils \
     libvasapi \
-    vendor.oplus.hardware.appradio@1.0 \
-    vendor.oplus.hardware.communicationcenter-V1-ndk \
-    vendor.oplus.hardware.communicationcenter-V2-ndk \
-    vendor.oplus.hardware.subsys-V5-ndk \
-    vendor.oplus.hardware.subsys_radio-V9-ndk \
     vendor.qti.hardware.soter@1.0 \
     CACertService \
     CneApp \
