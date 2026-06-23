@@ -435,10 +435,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         <AppLayer  name="SurfaceView[com.whatsapp/com.whatsapp.voipcalling.VoipActivityV2](BLAST)" type="camera" strategy="mode" mode="2" enable="true"/>
       </LayerApp>
 
-      <LayerApp name="whatsapp1">
-        <AppLayer  name="com.whatsapp.w4b/com.whatsapp.camera.ui.CameraActivity" type="camera" strategy="mode" mode="2" enable="true"/>
-      </LayerApp>
-
       <LayerApp name="roposo">
         <AppLayer  name="SurfaceView[com.roposo.android/com.roposo.creation.activities.CreationActivity](BLAST)" type="camera" strategy="mode" mode="2" enable="true"/>
       </LayerApp>
